@@ -81,6 +81,7 @@ new_config = ''''''
 user = input('Admin Login:')
 passwd = getpass()
 
+
 def deployment_upload() -> str:
     for host in host_list :
         if ipaddress.ip_address(host).is_multicast == False :
